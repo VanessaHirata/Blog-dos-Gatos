@@ -1,0 +1,94 @@
+header {
+    background-color: #387E96;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+
+
+    height: 3rem;
+}
+
+.pata {
+    height: 2rem;
+}
+
+.perfil {
+    height: 2.4rem;
+}
+
+input {
+    background-color: #6ea8bb;
+    border: 0;
+    border-radius: .2rem;
+    width: 100%;
+    height: 1.7rem;
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin: 2rem 4rem;
+    width: 60rem;
+  
+}
+
+sidebar {
+    margin-top: 2rem;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+.card img {
+    width: 10rem;
+    
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.56;
+}
+
+::ms-input-placeholder {
+    color: white;
+    opacity: 0.56;
+}
+
+footer {
+    background-color: #387E96;
+    height: 1.5rem;
+
+
+    text-align: center;
+    font-size: .7rem;
+    color: white;
+}
+
+@media (min-width:700px) {
+    nav {
+        display: flex;
+        gap: 1.5rem;
+    }
+}
+
+
+.card ::placeholder {
+    animation: appear;
+}
